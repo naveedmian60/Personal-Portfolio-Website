@@ -792,6 +792,10 @@ padding: 2rem 0 6rem;
     .services_container{
       justify-content: center;
     }
+    .skills_container{
+    grid-template-columns: repeat(1,max-content);
+    justify-content: center;
+    }
     .skills_content{
       padding: 2rem 4rem;
     }
