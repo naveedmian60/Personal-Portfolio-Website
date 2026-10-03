@@ -1,3 +1,9 @@
+import profileImage from "../../images/profile.png";
+import aboutImage from "../../images/about.png";
+import shopzoneImage from "../../images/shopzone-preview.png";
+import workspaceManagerImage from "../../images/workspace-manager-preview.png";
+import quizAppImage from "../../images/quiz-app-preview.svg";
+
 export const personalInfo = {
   name: "Naveed Ahmad",
   shortName: "naveed",
@@ -15,8 +21,8 @@ export const personalInfo = {
   github: "https://github.com/naveedmian60",
   linkedin: "https://www.linkedin.com/in/naveed-ahmad-870a253a4/",
   cvUrl: "Naveed-Cv.pdf",
-  profileImage: "images/profile.png",
-  aboutImage: "images/about.png",
+  profileImage,
+  aboutImage,
 };
 
 export const statsData = [
@@ -63,7 +69,7 @@ export const projectsData = [
     category: "Full Stack",
     description: "Full-featured MERN storefront with dynamic product catalog, user cart, wishlist management, authentication, and store admin portal.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "REST API", "JavaScript"],
-    image: "images/shopzone-preview.png",
+    image: shopzoneImage,
     imageAlt: "ShopZone e-commerce storefront preview",
     liveUrl: "https://mern-frontend-six-phi.vercel.app/",
     githubUrl: "https://github.com/naveedmian60",
@@ -75,7 +81,7 @@ export const projectsData = [
     category: "Frontend",
     description: "A collaborative team workspace application for organizing projects, task boards, and member roles with a responsive dashboard UI.",
     technologies: ["React", "JavaScript", "Tailwind CSS", "Dashboard UI", "Vite"],
-    image: "images/workspace-manager-preview.png",
+    image: workspaceManagerImage,
     imageAlt: "Workspace Manager web app preview",
     liveUrl: "https://workspace-manager-phi.vercel.app/",
     githubUrl: "https://github.com/naveedmian60",
@@ -87,7 +93,7 @@ export const projectsData = [
   category: "Full Stack",
   description: "An interactive full-stack quiz platform featuring multi-language programming quizzes, timer functionality, secure session authentication, score tracking, and responsive UI design.",
   technologies: ["React", "Vite", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vercel", "Railway"],
-  image: "images/quiz-app-preview.svg",
+  image: quizAppImage,
   imageAlt: "CodeQuest programming practice sign-in page",
   liveUrl: "https://quiz-app-kappa-brown.vercel.app/",
   githubUrl: "https://github.com/naveedmian60",
