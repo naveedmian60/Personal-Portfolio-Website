@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="813" viewBox="0 0 1600 813" fill="none">
+  <defs>
+    <radialGradient id="purpleGlow" cx="0" cy="0" r="1" gradientTransform="matrix(590 340 -270 470 0 360)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35105f" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#080b14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="matrix(-400 -210 170 -325 1600 813)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06333b" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#080b14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="button" x1="541" y1="613" x2="1009" y2="613" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9347fa"/>
+      <stop offset="1" stop-color="#8b49f5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="813" fill="#080b14"/>
+  <rect width="1600" height="813" fill="url(#purpleGlow)"/>
+  <rect width="1600" height="813" fill="url(#cyanGlow)"/>
+
+  <rect x="495.5" y="88.5" width="559" height="661" rx="30" fill="#101625" stroke="#293142"/>
+
+  <rect x="541" y="134" width="55" height="55" rx="16" fill="#9149f8"/>
+  <text x="568.5" y="172" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">Q</text>
+  <text x="611" y="169" fill="#f7f8fc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="2.4">CODEQUEST</text>
+
+  <text x="541" y="266" fill="#f8f9fc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1.7">Welcome back</text>
+  <text x="541" y="306" fill="#8fa4c3" font-family="Inter, Arial, sans-serif" font-size="16">Log in to continue your programming practice.</text>
+
+  <text x="541" y="369" fill="#f2f4fa" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Email</text>
+  <rect x="541.5" y="384.5" width="468" height="56" rx="15" fill="#090d17" stroke="#242b38"/>
+  <text x="562" y="420" fill="#496183" font-family="Inter, Arial, sans-serif" font-size="16">you@example.com</text>
+
+  <text x="541" y="487" fill="#f2f4fa" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Password</text>
+  <rect x="541.5" y="501.5" width="468" height="57" rx="15" fill="#090d17" stroke="#242b38"/>
+  <text x="562" y="538" fill="#496183" font-family="Inter, Arial, sans-serif" font-size="16">Your password</text>
+  <text x="950" y="532" fill="#c8a5ff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Show</text>
+
+  <rect x="541" y="583" width="468" height="60" rx="15" fill="url(#button)"/>
+  <text x="775" y="622" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">Log in</text>
+
+  <text x="622" y="698" fill="#8fa4c3" font-family="Inter, Arial, sans-serif" font-size="16">New to CodeQuest?</text>
+  <text x="782" y="698" fill="#c8a5ff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Create an account</text>
+</svg>
